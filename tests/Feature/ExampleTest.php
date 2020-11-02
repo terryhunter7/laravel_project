@@ -18,4 +18,12 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    public function testThis()
+    {
+
+        $answer = 5 + 5;
+        $this->assertEquals($answer, 10);
+    }
+    
 }
